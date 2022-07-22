@@ -74,7 +74,8 @@ Widget buildTextFormField({
               hintStyle: Theme.of(context).textTheme.headline4,
               border: InputBorder.none,
               suffixIcon: Padding(
-                  padding: const EdgeInsets.only(top: 6.0), child: suffix),
+                  padding: const EdgeInsets.only(top: 6.0), child: suffix,),
+
             ),
           ),
         ));

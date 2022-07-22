@@ -46,7 +46,7 @@ class ManageProducts extends StatelessWidget {
                           controller:
                               MangeProductCubit.get(context).searchController,
                           text: 'Search product',
-                          suffix: const Icon(Icons.search)),
+                          suffix: Icon(Icons.search,color:Theme.of(context).canvasColor,)),
                     ),
                     const SizedBox(
                       height: 7.0,

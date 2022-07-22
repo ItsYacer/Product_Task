@@ -26,7 +26,7 @@ ThemeData? lightTHeme = ThemeData(
     subtitle2: TextStyle(
         color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16.0),
   ),
-  canvasColor: Colors.white,
+  canvasColor: Colors.grey,
   backgroundColor: Colors.grey[300],
   cardColor: Colors.white,
   primaryColor: Colors.redAccent,
@@ -63,5 +63,5 @@ ThemeData? darkTheme = ThemeData(
   iconTheme: const IconThemeData(color: Colors.grey, size: 15.0),
   backgroundColor: const Color.fromARGB(188, 26, 25, 25),
   cardColor: Colors.black,
-  canvasColor: Colors.black,
+  canvasColor: Colors.grey,
 );

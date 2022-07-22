@@ -40,7 +40,6 @@ class AddProductCubit extends Cubit<AddProductStates> {
     });
   }
 
-
   bool isActive = false;
   bool nameTrue = false;
   bool descriptionTrue = false;
