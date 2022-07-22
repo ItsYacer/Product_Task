@@ -28,6 +28,7 @@ ThemeData? lightTHeme = ThemeData(
   ),
   canvasColor: Colors.grey,
   backgroundColor: Colors.grey[300],
+  scaffoldBackgroundColor: Colors.grey[300],
   cardColor: Colors.white,
   primaryColor: Colors.redAccent,
   iconTheme: const IconThemeData(color: Colors.grey, size: 15.0),
@@ -44,6 +45,7 @@ ThemeData? darkTheme = ThemeData(
         color: Colors.white,
       ),
       iconTheme: IconThemeData(color: Colors.white)),
+  scaffoldBackgroundColor: const Color.fromARGB(188, 26, 25, 25),
   textTheme: const TextTheme(
     headline4: TextStyle(
       fontSize: 15.0,

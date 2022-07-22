@@ -46,8 +46,10 @@ class MangeProductCubit extends Cubit<MangeProductStates> {
             element['price'].toString().startsWith(item)) {
           searchList.add(ProductModel.formJson(element.data()));
         }
+        searchList = searchList.toSet().toList();
         emit(ProductSearch());
       }
+
       products =[];
       getAllProduct();
     }).catchError((error) {});
